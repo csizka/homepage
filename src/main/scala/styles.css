@@ -1,0 +1,191 @@
+body {
+  background-image: url("./wallpaper.png");
+  color: teal;
+  padding: 3px;
+
+  section{
+    color: teal;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  h1{
+    padding: 20px;
+    text-align: center;
+  }
+  h2{
+    padding: 20px;
+    text-align: center;
+  }
+
+  h3{
+    padding: 15px;
+  }
+
+  p{
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  p.img{
+    text-align: center;
+  }
+  div{
+    color: teal;
+    font-style: italic;
+    opacity: 0.89;
+  }
+
+  ul {
+    list-style-type: '🍒 ';
+    color: teal;
+  }
+
+  ol{
+    color: teal;
+  }
+
+  button{
+    text-align: center;
+    color: white;
+    background: teal;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  button:hover{
+    background-color: #ddd;
+    color: black;
+  }
+
+  th{
+    text-align: center;
+    color: white;
+    background: teal;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: solid white 1px;
+  }
+
+  td{
+    text-align: center;
+    color: teal;
+    border: solid teal 1px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: teal;
+  }
+
+  .topnav {
+    background-color: teal;
+    overflow: hidden;
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-right: 1px double white;
+    border-left: 1px double white;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: white;
+    color: teal;
+  }
+  .topnav a.icon {
+    float: right;
+    display: none;
+  }
+
+  textarea{
+    background-color: #a0dbdb;
+    color: teal;
+    width: 100%;
+  }
+  comment-container{
+    color: #6097975e;
+  }
+
+  @media screen and (min-width: 1600px) {
+    padding-right: 25%;
+    padding-left: 25%;
+  }
+
+  @media screen and (min-width: 1400px) and (max-width: 1600px) {
+    padding-right: 20%;
+    padding-left: 20%;
+  }
+
+  @media screen and (min-width: 1200px) and (max-width: 1400px) {
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+
+  @media screen and (min-width: 1000px) and (max-width: 1200px) {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+
+  @media screen and (min-width: 850px) and (max-width: 1000px) {
+      padding-right: 5%;
+      padding-left: 5%;
+  }
+
+  @media screen and (max-width: 850px) {
+    #recipes:not(.responsive) a:not(.icon) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    nav {
+      display: block;
+    }
+
+    body{
+      padding-right: 3px;
+      padding-left: 3px;
+    }
+    .topnav.responsive {
+      position: relative;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    h1{
+      padding: 10px;
+    }
+    h2{
+      padding: 10px;
+    }
+    p{
+      padding: 5px;
+    }
+    p.img{
+      padding: 5px;
+  }
+  }
+}
+
+

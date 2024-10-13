@@ -1,0 +1,63 @@
+HTML tags:
+
+<html>
+<title>
+<head>
+<body>
+<nav>
+<div>
+<a>
+<i>
+<h1>
+<h2>
+<h3>
+<p>
+<h2>
+<img>
+<button>
+<section>
+<table>
+<tr>
+<th>
+<td>
+<ul>
+<li>
+<ol>
+<br>
+
+
+CSS properties:
+
+background-image
+color
+padding
+float
+font-size
+font-weight
+text-align
+text-justify
+font-style
+opacity
+list-style-type
+background
+padding-left
+padding-right
+border-right
+display
+justify-content
+align-items
+overflow
+border-left
+position
+right
+top
+
+
+JavaScript:
+
+> I used JS to create a comment function. In real life I would need a database, where I could store the comments people posted, and fetch them to the comments section when loading the page. In this function if the commenter did not write anything to both the name and the comment area but clicks on the submit button, they get an alert remindig them to do so, otherwise their comment will be listed with the timestamp and name in this section.
+> I also used a function to change the status of the recipe links in the topnav bar to responsive and back to normal, in order for having a better UX on small screens. This way if they click on the lines, the links become visible and people can go to the other sites as well, but if they do not click there, the links do not bother the reader.
+
+Bootstrap:
+
+> I have used their accordion style, which is really good, as it was easily integratable and has already been implemented in a way that suits small screens as well.
